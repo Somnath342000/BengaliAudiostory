@@ -4,7 +4,3 @@ openpyxl
 numpy
 seaborn
 scikit-learn
-matplotlib
-reportlab
-twilio
-statsmodels
