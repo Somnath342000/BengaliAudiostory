@@ -5,7 +5,7 @@ from io import BytesIO
 
 st.header("Bengali Audio Story Dictionary")
 
-st.write(''''বাংলা সাহিত্য হলো বাংলা ভাষায় রচিত সাহিত্য, যা যুগের পর যুগ বিভিন্ন আঙ্গিকে বিকশিত হয়েছে। 
+st.write('''বাংলা সাহিত্য হলো বাংলা ভাষায় রচিত সাহিত্য, যা যুগের পর যুগ বিভিন্ন আঙ্গিকে বিকশিত হয়েছে। 
 এই সাহিত্যের শেকড় অনেক গভীরে চলে যায়, প্রাচীন কাব্যকাব্যিক রচনা থেকে শুরু করে আধুনিক সময়ের প্রবন্ধ, 
 গল্প, কবিতা, নাটক, উপন্যাস ও অন্যান্য নানা ধরনের সাহিত্যের শাখা। বাংলা সাহিত্যের ইতিহাসে অসংখ্য গুণী সাহিত্যিক জন্মেছেন,
  যাদের রচনা বাংলা ভাষা ও সংস্কৃতির অমূল্য রত্ন।''')
@@ -79,7 +79,7 @@ try:
     response_bengali_story = requests.get(bengali_story_url)
 
     if response_bengali_story.status_code == 200:
-        st.success("File loaded successfully from GitHub (BengaliStory.xlsx)!")
+        st.success("File loaded successfully from GitHub!")
 
         # Load the Excel file into a pandas DataFrame
         df_bengali_story = pd.read_excel(BytesIO(response_bengali_story.content), engine='openpyxl')
