@@ -10,7 +10,7 @@ st.write(''''বাংলা সাহিত্য হলো বাংলা ভ
 গল্প, কবিতা, নাটক, উপন্যাস ও অন্যান্য নানা ধরনের সাহিত্যের শাখা। বাংলা সাহিত্যের ইতিহাসে অসংখ্য গুণী সাহিত্যিক জন্মেছেন,
  যাদের রচনা বাংলা ভাষা ও সংস্কৃতির অমূল্য রত্ন।''')
 
-st.image('ba1.jpg', caption='Sunday Suspense', use_container_width=True)
+st.image('ba1.jpg', caption='This site is created by Somnath Banerjee', use_container_width=True)
 
 # Link to other project
 st.write('''My other project link: https://movieexplorationsuggestion-somnath.streamlit.app/''')
@@ -69,7 +69,7 @@ try:
 except Exception as e:
     st.error(f"An error occurred while processing the first file: {e}")
 
-st.image('ba2.jpg', caption='Goppo Mir er thek', use_container_width=True)
+st.image('ba2.jpg', caption='Sunday Suspense', use_container_width=True)
 
 # Second Excel file URL (BengaliStory.xlsx)
 bengali_story_url = "https://raw.githubusercontent.com/SomnathBanerjee342000new/MyDatabase/main/BengaliStory.xlsx"
@@ -127,5 +127,7 @@ st.write(''''আজকের বাংলা সাহিত্যও অনে�
 প্রতিভাবান লেখক কাজ করছেন। ডিজিটাল যুগে বাংলা সাহিত্যে অনলাইন মাধ্যমে লেখালেখি বৃদ্ধি পেয়েছে, 
 যেখান থেকে তরুণ প্রজন্ম তাদের সৃষ্টিশীলতা প্রকাশ করছে।
 বাংলা সাহিত্যের ঐতিহ্য প্রতিদিন নতুন দিগন্ত উন্মোচন করছে, যেখানে পুরানো এবং নতুন ধারার একসাথে বিকাশ ঘটছে।''')
+
+st.write('''This site is created by Somnath Banerjee. Mail: somnathbanerjee342000@gmail.com''')
 
 st.image('ba3.jpg', caption='Goppo Mir er thek', use_container_width=True)
