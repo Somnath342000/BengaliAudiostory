@@ -51,9 +51,9 @@ try:
             if selected_Series != "All":
                 df_filtered = df_filtered[df_filtered["Series"] == selected_Series]
 
-            selected_Episode = st.selectbox("Select Episode", ["All"] + df_filtered["Episode"].unique().tolist())
+            selected_Episode = st.selectbox("Select Story Name", ["All"] + df_filtered["Story Name"].unique().tolist())
             if selected_Episode != "All":
-                df_filtered = df_filtered[df_filtered["Episode"] == selected_Episode]
+                df_filtered = df_filtered[df_filtered["Story Name"] == selected_Episode]
 
         # Display the "Link" column as clickable URLs if it exists
         if 'Link' in df_filtered.columns:
