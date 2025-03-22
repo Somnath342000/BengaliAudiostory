@@ -122,6 +122,8 @@ try:
 except Exception as e:
     st.error(f"An error occurred while processing the second file: {e}")
 
+st.write('''For Youtube Video Download (for story) click here : https://ssyoutube.com/en796MW/''')
+
 
 st.write(''''আজকের বাংলা সাহিত্যও অনেক বিচিত্র। কবিতা, গল্প, উপন্যাস, নাটক, প্রবন্ধ ইত্যাদির নানা অঙ্গনে বহু 
 প্রতিভাবান লেখক কাজ করছেন। ডিজিটাল যুগে বাংলা সাহিত্যে অনলাইন মাধ্যমে লেখালেখি বৃদ্ধি পেয়েছে, 
